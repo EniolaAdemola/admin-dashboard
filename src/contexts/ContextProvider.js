@@ -40,6 +40,12 @@ export const ContextProvider = ({ children }) => {
 			[clicked]: true,
 		});
 	};
+	const closeNav = (clicked) => {
+		setIsClicked({
+			...initialState,
+			[clicked]: false,
+		});
+	};
 	return (
 		<StateContext.Provider
 			// What ever value we pass here
@@ -58,6 +64,7 @@ export const ContextProvider = ({ children }) => {
 				setThemeSettings,
 				setMode,
 				setColor,
+				closeNav,
 			}}
 		>
 			{children}
