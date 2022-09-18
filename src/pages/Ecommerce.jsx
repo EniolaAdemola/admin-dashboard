@@ -3,6 +3,7 @@ import { BsCurrencyDollar } from "react-icons/bs";
 import { GoPrimitiveDot } from "react-icons/go";
 import { Stacked, Pie, Button, SparkLine } from "../components";
 import { earningData, SparklineAreaData, ecomPieChartDat } from "../data/dummy";
+import Footer from "../components/Footer";
 
 import { useStateContext } from "../contexts/ContextProvider";
 
@@ -121,6 +122,9 @@ const ECommerce = () => {
 						</div>
 					</div>
 				</div>
+			</div>
+			<div className="dark:text-gray-200 text-gray-700 text-center m-5">
+				<Footer />
 			</div>
 		</div>
 	);
