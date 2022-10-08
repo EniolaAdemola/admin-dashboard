@@ -34,9 +34,8 @@ and many more i hope you also find it interesting, and if you do don't forget to
 ## How to clone this Repository
 
 - make sure you have [node](https://nodejs.org/en/download/) installed on your pc, go to your command line and run the command below
-- mkdir admin-dashboard
-- cd admin-dashboard
 - `git clone https://github.com/EniolaAdemola/admin-dashboard.git`
+-  `cd admin-dashboard`
 - `npm i --legacy-peer-deps `
 - `npm start `
 
